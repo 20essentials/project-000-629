@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 530 350" preserveAspectRatio="xMidYMid" width="530" height="350" style="shape-rendering: auto; display: block; background: rgb(255, 255, 255);"><g><filter id="filter-0.6780650246356913">
+  <feTurbulence type="turbulence" baseFrequency="0.01" numOctaves="2" result="turb"/>
+  <feDiffuseLighting surfaceScale="5" diffuseConstant="3" kernelUnitLength="0 0" lighting-color="#ffffff" in="turb" result="diffuseLighting">
+    <feDistantLight azimuth="150" elevation="16.5">
+    <animate attributeName="azimuth" from="0" to="360" dur="8.333333333333334s" repeatCount="indefinite"/>
+    </feDistantLight>
+  </feDiffuseLighting>
+</filter>
+<rect x="0" y="0" width="530" height="350" filter="url(#filter-0.6780650246356913)" fill="#ffffff"/><g/></g><style type="text/css"/></svg>
